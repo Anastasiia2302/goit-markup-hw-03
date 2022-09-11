@@ -6,59 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./ccs/styles.css" />
     
   </head>
-  <body>
+  <body >
     <!-- Шапка -->
     <header class="page-header">
+      <div class="container">
       <nav class="nav-item">
         <a class="logo" href="./index.html"><span class="web-header">Web</span>Studio</a>
 
         <ul class="header-list">
-          <li><a class="link current" href="./index.html" >Студія</a></li>
-          <li><a class="link" href="./portfolio.html" >Портфоліо</a></li>
-          <li><a class="link" href="#Контакти">Контакти</a></li>
+          <li class="list-link"><a class="link current" href="./index.html" >Студія</a></li>
+          <li class="list-link"><a class="link" href="./portfolio.html" >Портфоліо</a></li>
+          <li class="list-link"><a class="link" href="#Контакти">Контакти</a></li>
         </ul>
 
         <ul class="header-contact">
-          <li><a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link-contact" href="tel:+380961111111"> +38 096 111 11 11</a></li>
+          <li class="cont-link"><a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="cont-link"><a class="link-contact" href="tel:+380961111111"> +38 096 111 11 11</a></li>
         </ul>
       </nav>
+    </div>
     </header>
     <main>
       <!-- герой сайта -->
       <section class="hero-section">
+        <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="btn" type="button">Замовити послугу</button>
+      </div>
       </section>
+
       <!-- Переваги -->
       <section class="section-features">
+        <div class="container">
         <h2 class="features-title">Переваги</h2>
-        <ul>
-          <li>
-            <h3 class="features">УВАГА ДО ДЕТАЛЕЙ</h3>
+         <ul class="features-item">
+          <li class="features-list">
+           <h3 class="features">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="features-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="features-list">
             <h3 class="features">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="features-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="features-list">
             <h3 class="features">ПЛАНУВАННЯ</h3>
             <p class="features-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="features-list">
             <h3 class="features">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="features-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -66,26 +72,28 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <!-- Чим ми займаємося -->
       <section class="section-about">
+        <div class="container">
         <h2 class="about">Чим ми займаємося</h2>
         <ul class="about-list">
-          <li>
+          <li class="li-img">
             <img class="about-img"
               src="./images/img.jpg"
               alt="програмування"
               width="370"
             />
           </li>
-          <li>
+          <li class="li-img">
             <img class="about-img"
               src="./images/img1.jpg"
               alt="мобільна розробка"
               width="370"
             />
           </li>
-          <li>
+          <li class="li-img">
             <img class="about-img"
               src="./images/img2.jpg"
               alt="веб-дизайн"
@@ -93,13 +101,15 @@
             />
           </li>
         </ul>
+      </div>
       </section>
       <!-- Наша команда -->
       <section class="section-staff">
+        <div class="container">
         <h2 class="our-staff">Наша команда</h2>
 
         <ul class="staff-list">
-          <li>
+          <li class="li-staff">
             <img class="staff-img"
               src="./images/img3.jpg"
               alt="Ігор Дем'яненко"
@@ -109,8 +119,8 @@
             <p class="staff-text">Product Designer</p>
           </li>
 
-          <li>
-            <img
+          <li class="li-staff">
+            <img class="staff-img"
               src="./images/img4.jpg"
               alt="Ольга Рєпіна"
               width="270"
@@ -119,8 +129,8 @@
             <p class="staff-text">Frontend Developer</p>
           </li>
 
-          <li>
-            <img
+          <li class="li-staff">
+            <img class="staff-img"
               src="./images/img5.jpg"
               alt="Микола Тарасов"
               width="270"
@@ -128,8 +138,8 @@
             <h3 class="staff">Микола Тарасов</h3>
             <p class="staff-text">Marketing</p>
           </li>
-          <li>
-            <img
+          <li class="li-staff">
+            <img class="staff-img"
               src="./images/img6.jpg"
               alt="Михайло Єрмаков"
               width="270"
@@ -138,6 +148,7 @@
             <p class="staff-text">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!-- Подвал -->
@@ -159,4 +170,5 @@
       </address>
     </footer>
   </body>
+
 </html>
